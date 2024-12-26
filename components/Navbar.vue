@@ -3,20 +3,20 @@
     <!-- Top Bar -->
     <div class="bg-success text-white pt-2 py-1 justify-content-between align-items-center px-3">
       <marquee class="flex-grow-1">
-        pp balap coy
+        Website Sekolah SMK Negeri 4 Tasikmalaya (Untuk Ujikom)
       </marquee>
     </div>
     <div class="bg-white px-2 text-end pt-2">
-      <span>Sabtu, 7 Desember 2024</span>
+      <span>{{ formatTanggal }}</span>
     </div>
     <hr class="shadow-sm">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="/">
-          <img src="..." alt="Logo" width="50" class="me-2" />
-          <span class="fw-bold">Gatau Sekolah Mana</span>
+          <img src="../assets/image/logoSMK.png" alt="Logo" width="35" class="me-3" />
+          <span class="fw-bolder">SMK Negeri 4 Tasikmalaya</span>
         </a>
         <button
           class="navbar-toggler"
@@ -85,7 +85,29 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      today: new Date()
+    };
+  },
+  computed: {
+    formatTanggal() {
+      const hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+      const bulan = [
+        'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+        'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+      ];
+
+      const hariNama = hari[this.today.getDay()];
+      const tanggalHari = this.today.getDate();
+      const bulanNama = bulan[this.today.getMonth()];
+      const tahun = this.today.getFullYear();
+
+      return `${hariNama}, ${tanggalHari} ${bulanNama} ${tahun}`;
+    }
+  }
+};
 </script>
 
 <style scoped>

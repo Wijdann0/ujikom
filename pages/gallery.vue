@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 p-4">
             <h1 class="section-title pb-1">
-                <strong>Gallery OF SMKN 4</strong>
+                <strong>Gallery of SMKN 4</strong>
             </h1>
             </div>
         </div>

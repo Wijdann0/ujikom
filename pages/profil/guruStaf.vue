@@ -9,9 +9,20 @@
         </div>
       <div class="row">
         <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
             <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
+              <div class="overlay">
+                <p class="overlay-text">Kurniawan S.Pd M.pd</p>
+                <p class="overlay-text">Kepala Sekolah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center pb-3">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
+            <div class="image-container rounded-4">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
               <div class="overlay">
                 <p class="overlay-text">Nama Guru atau Informasi</p>
               </div>
@@ -19,9 +30,9 @@
           </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
             <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
               <div class="overlay">
                 <p class="overlay-text">Nama Guru atau Informasi</p>
               </div>
@@ -29,9 +40,9 @@
           </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
             <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
               <div class="overlay">
                 <p class="overlay-text">Nama Guru atau Informasi</p>
               </div>
@@ -39,9 +50,9 @@
           </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
             <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
               <div class="overlay">
                 <p class="overlay-text">Nama Guru atau Informasi</p>
               </div>
@@ -49,39 +60,9 @@
           </div>
         </div>
         <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
+          <div class="card custom-card rounded-4" style="width: 15rem; height: 225px;">
             <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-              <div class="overlay">
-                <p class="overlay-text">Nama Guru atau Informasi</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
-            <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-              <div class="overlay">
-                <p class="overlay-text">Nama Guru atau Informasi</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
-            <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-              <div class="overlay">
-                <p class="overlay-text">Nama Guru atau Informasi</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center pb-3">
-          <div class="card custom-card rounded-4" style="width: 15rem;">
-            <div class="image-container rounded-4">
-              <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
+              <img src="/assets/image/mas.png" class="d-block w-100" alt="Gambar Guru">
               <div class="overlay">
                 <p class="overlay-text">Nama Guru atau Informasi</p>
               </div>
@@ -130,7 +111,7 @@
   
   .overlay-text {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 

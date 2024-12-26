@@ -12,13 +12,22 @@
     </div>
     <hr>
     <div class="row pb-5">
-    <div class="col-md-4 d-flex justify-content-center">
-      <div class="card mt-5" style="width: 100%;">
-        <img src="../assets/image/cont1.jpeg" class="card-img-top w-50" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+    <div class="col-md-4 d-flex">
+      <div class="card mt-5 d-flex justify-content-center" style="width: 100%;">
+        <div class="">
+          <img src="../assets/image/mas.png" class="w-50" alt="...">
+        </div>
+        
+        <div class="card-body ">
+          <h5 class="card-title">Sambutan Kepala Sekolah</h5>
+          <div class=" d-flex justify-content-center">
+            <p class="card-text" style="text-align: justify;">
+            Assalamualaikum Wr.Wb
+            </p>
+          </div>
+          
+          <p class="card-text" style="text-align: justify;">
+            Segala puji dan syukur kita panjatkan kepada Allah SWT, semoga kita semua ada dalam lindungan-nya. dan atas perkenan-nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
           </p>
         </div>
       </div>
@@ -63,54 +72,86 @@
         <h1>Kompetensi Keahlian</h1>
       </div>
     </div>
-    <div class="row p-0 m-0 pb-5 text-center">
-      <div class="col-4 pb-3">
-        <div class="card">
-          <h5 class="card-title">pp</h5>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, placeat atque,
-               et veritatis blanditiis voluptatum corrupti repudiandae temporibus quaerat eaque tempora laboriosam
-                ut culpa ad tenetur. Id iste nemo amet!</p>
+    <div class="kompetensi-container">
+      <div class="row p-0 m-0 pb-5 text-center">
+        <div class="col-4 pb-3">
+          <div class="card">
+            <h5 class="card-title pt-3 fw-bold">Teknik Komputer Dan Jaringan</h5>
+            <h6>Sarana Pendukung Pembelajaran :</h6>
+            <div class="card-body d-flex justify-content-center" style="text-align: justify;">
+              <div class="card-text">
+                <ul>
+                  <li>Bengkel TKJ</li>
+                  <li>Network Simulator</li>
+                  <li>Techno Park</li>
+                  <li>Dll</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 pb-3">
-        <div class="card">
-          <h5 class="card-title">pp</h5>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, placeat atque,
-               et veritatis blanditiis voluptatum corrupti repudiandae temporibus quaerat eaque tempora laboriosam
-                ut culpa ad tenetur. Id iste nemo amet!</p>
+        <div class="col-4 pb-3">
+          <div class="card">
+            <h5 class="card-title fw-bold">Pengembangan Perangkat Lunak & Gim</h5>
+            <h6>Sarana Pendukung Pembelajaran :</h6>
+            <div class="card-body d-flex justify-content-center" style="text-align: justify;">
+              <div class="card-text">
+                <ul>
+                  <li>Laboratorium Komputer</li>
+                  <li>Komputer Server</li>
+                  <li>Techno Park</li>
+                  <li>Dll</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 pb-3">
-        <div class="card">
-          <h5 class="card-title">pp</h5>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, placeat atque,
-               et veritatis blanditiis voluptatum corrupti repudiandae temporibus quaerat eaque tempora laboriosam
-                ut culpa ad tenetur. Id iste nemo amet!</p>
+        <div class="col-4 pb-3">
+          <div class="card">
+            <h5 class="card-title pt-3 fw-bold">Teknik Dan Bisnis Sepeda Motor</h5>
+            <h6>Sarana Pendukung Pembelajaran :</h6>
+            <div class="card-body d-flex justify-content-center" style="text-align: justify;">
+              <div class="card-text">
+                <ul>
+                  <li>Bengkel TBSM</li>
+                  <li>Unit Produksi</li>
+                  <li>Techno Park</li>
+                  <li>Dll</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 pb-3">
-        <div class="card">
-          <h5 class="card-title">pp</h5>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, placeat atque,
-               et veritatis blanditiis voluptatum corrupti repudiandae temporibus quaerat eaque tempora laboriosam
-                ut culpa ad tenetur. Id iste nemo amet!</p>
+        <div class="col-4 pb-3">
+          <div class="card">
+            <h5 class="card-title pt-3 fw-bold">Desain Komunikasi Visual</h5>
+            <h6>Sarana Pendukung Pembelajaran :</h6>
+            <div class="card-body d-flex justify-content-center" style="text-align: justify;">
+              <div class="card-text">
+                <ul>
+                  <li>Bengkel DKV</li>
+                  <li>Unit Produksi</li>
+                  <li>Techno Park</li>
+                  <li>Dll</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 pb-3">
-        <div class="card">
-          <h5 class="card-title">pp</h5>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, placeat atque,
-               et veritatis blanditiis voluptatum corrupti repudiandae temporibus quaerat eaque tempora laboriosam
-                ut culpa ad tenetur. Id iste nemo amet!</p>
+        <div class="col-4 pb-3">
+          <div class="card">
+            <h5 class="card-title pt-3 fw-bold">Teknik Otomasi Industri</h5>
+            <h6>Sarana Pendukung Pembelajaran :</h6>
+            <div class="card-body d-flex justify-content-center" style="text-align: justify;">
+              <div class="card-text">
+                <ul>
+                  <li>Bengkel TOI</li>
+                  <li>Unit Produksi</li>
+                  <li>Techno Park</li>
+                  <li>Dll</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -124,30 +165,30 @@
         <div class="m-3">
           <div class="card" id="clickable">
             <div class="card-header">
-              Featured
+              12-12-2024
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Pemilihan Ketua & Wakil Osis</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
           <p></p>
           <div class="card">
             <div class="card-header">
-              Featured
+              12-12-2024
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Pembukaan Pekan Olahraga Raga Kelas</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
           <p></p>
           <div class="card">
             <div class="card-header">
-              Featured
+              25-11-2024
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Selamat Hari Guru Nasional</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
@@ -159,20 +200,20 @@
         <div class="m-3">
           <div class="card">
             <div class="card-header">
-              Featured
+              13-12-2024
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p  class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">LPS SEMIFINAL</h5>
+              <p  class="card-text">SMK Negeri 3 Tasikmalaya VS SMK Negeri 4 Tasikmalaya</p>
             </div>
           </div>
           <p></p>
           <div class="card">
             <div class="card-header">
-              Featured
+              10-12-2024
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Pekan Ujian Sekolah</h5>
               <p  class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
@@ -233,7 +274,7 @@
         </div>
         <div class="col pt-5 d-flex justify-content-center">
           <h6 class="bg-success text-white d-flex justify-content-center align-items-center " style="width: 400px; height: 50px;">
-            <a class="text-white link-offset-2 link-underline link-underline-opacity-0" href="#">Selengkapnya</a>
+            <a class="text-white link-offset-2 link-underline link-underline-opacity-0" href="/saranaPrasarana">Selengkapnya</a>
           </h6>
         </div>
     </div>
@@ -246,7 +287,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Jumlah Siswa</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text fw-bold">1.505</p>
             </div>
           </div>
         </div>
@@ -254,7 +295,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Jumlah Guru</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text fw-bold">90</p>
             </div>
           </div>
         </div>
@@ -262,7 +303,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Jumlah Rombel</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text fw-bold">45</p>
             </div>
           </div>
         </div>
@@ -302,6 +343,28 @@ template{
   background-repeat: no-repeat; /* Mencegah pengulangan gambar */
   width: 100%;
   height: 80vh; /* Atur agar menutupi seluruh layar */
+}
+
+.kompetensi-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 </style>

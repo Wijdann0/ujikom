@@ -28,6 +28,8 @@
                 perspiciatis earum officiis totam nobis tempore magni illum, enim corrupti sint distinctio aliquam soluta.lor Lorem
                  ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur excepturi recusandae fuga quia aliquid, 
                  exercitationem atque pariatur quae placeat dicta! Excepturi velit ab architecto eum repellat ut dolore aspernatur.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam quam maxime voluptatum, sequi ad earum dicta?
+                  Quas officia esse nihil, qui repudiandae, harum, laudantium neque dolore veniam aperiam cumque?
             </div>
         </div>
     </div>

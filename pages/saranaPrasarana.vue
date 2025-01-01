@@ -85,42 +85,93 @@
 
         <div class="row pt-4">
             <div class="col-md-3 d-flex justify-content-center pb-3">
-                <div class="card custom-card rounded-4" style="width: 15rem;">
-                    <div class="image-container rounded-4">
-                    <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-                    <div class="overlay">
-                        <p class="overlay-text">Nama Bangunan</p>
+                <div class="card custom-card rounded-4" style="width: 15rem; height: 100%;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/4.webp" class="d-block w-100 rounded-4" alt="Gambar Guru">
+                        <div class="overlay rounded-4">
+                            <p class="overlay-text">LAB BARU PPLG</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/7.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">PARKIRAN GURU</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center pb-3">
                 <div class="card custom-card rounded-4" style="width: 15rem;">
-                    <div class="image-container rounded-4">
-                    <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-                    <div class="overlay">
-                        <p class="overlay-text">Nama Bangunan</p>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center pb-3">
-                <div class="card custom-card rounded-4" style="width: 15rem;">
-                    <div class="image-container rounded-4">
-                    <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-                    <div class="overlay">
-                        <p class="overlay-text">Nama Bangunan</p>
-                    </div>
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/16.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">MASJID</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 d-flex justify-content-center pb-3">
                 <div class="card custom-card rounded-4" style="width: 15rem;">
-                    <div class="image-container rounded-4">
-                    <img src="/assets/image/profil.jpg" class="d-block w-100" alt="Gambar Guru">
-                    <div class="overlay">
-                        <p class="overlay-text">Nama Bangunan</p>
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/1.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">AULA</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/6.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">LAB TJKT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/8.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">LAB PPLG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/13.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">LAB TBSM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/BGround.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">LAB DKV</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center pb-3">
+                <div class="card custom-card rounded-4" style="width: 15rem;">
+                    <div class="image-bang rounded-4">
+                        <img src="/assets/image/14.webp" class="d-block w-100" alt="Gambar Guru">
+                        <div class="overlay">
+                            <p class="overlay-text">RUANG KELAS</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,7 +199,7 @@
 /* Overlay untuk teks */
 .overlay {
     position: absolute;
-    top: 100;
+    top:100;
     left: 0;
     right: 0;
     bottom: 0;
@@ -158,10 +209,13 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px; /* Untuk menyamakan dengan card */
   }
   
-  .image-container:hover .overlay {
-    opacity: 1;
+  .image-container:hover .overlay{
+    opacity: 2;
   }
   
   .overlay-text {
@@ -169,4 +223,21 @@
     font-size: 1rem;
     text-align: center;
   }
+
+  .image-bang {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Pastikan container memiliki tinggi */
+    overflow: hidden; /* Supaya tidak ada bagian gambar yang keluar */
+}
+
+.image-bang:hover .overlay{
+    opacity: 2;
+}
+
+.image-bang img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 </style>

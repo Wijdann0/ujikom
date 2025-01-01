@@ -36,13 +36,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner rounded">
           <div class="carousel-item active">
-            <img src="../assets/image/cont2.jpeg" class="d-block w-100" alt="...">
+            <img src="../assets/image/caro1.webp" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../assets/image/cont3.jpeg" class="d-block w-100" alt="...">
+            <img src="../assets/image/caro2.webp" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../assets/image/cont4.jpeg" class="d-block w-100" alt="...">
+            <img src="../assets/image/caro3.webp" class="d-block w-100" alt="...">
           </div>
         </div>
         <button
@@ -69,14 +69,14 @@
   <hr class="pb-5">
     <div class="row text-center pb-5 bg-white">
       <div class="col">
-        <h1>Kompetensi Keahlian</h1>
+        <h1>Program Keahlian</h1>
       </div>
     </div>
     <div class="kompetensi-container">
       <div class="row p-0 m-0 pb-5 text-center">
         <div class="col-4 pb-3">
           <div class="card">
-            <h5 class="card-title pt-3 fw-bold">Teknik Komputer Dan Jaringan</h5>
+            <h5 class="card-title pt-3 fw-bold">Teknik Jaringan Komputer <br>dan Telekomunikasi</h5>
             <h6>Sarana Pendukung Pembelajaran :</h6>
             <div class="card-body d-flex justify-content-center" style="text-align: justify;">
               <div class="card-text">
@@ -92,7 +92,7 @@
         </div>
         <div class="col-4 pb-3">
           <div class="card">
-            <h5 class="card-title fw-bold">Pengembangan Perangkat Lunak & Gim</h5>
+            <h5 class="card-title fw-bold">Pengembangan <br>Perangkat Lunak dan Gim</h5>
             <h6>Sarana Pendukung Pembelajaran :</h6>
             <div class="card-body d-flex justify-content-center" style="text-align: justify;">
               <div class="card-text">
@@ -140,7 +140,7 @@
         </div>
         <div class="col-4 pb-3">
           <div class="card">
-            <h5 class="card-title pt-3 fw-bold">Teknik Otomasi Industri</h5>
+            <h5 class="card-title pt-3 fw-bold">Teknik Elektronika</h5>
             <h6>Sarana Pendukung Pembelajaran :</h6>
             <div class="card-body d-flex justify-content-center" style="text-align: justify;">
               <div class="card-text">
@@ -220,10 +220,10 @@
           <p></p>
           <div class="card">
             <div class="card-header">
-              Featured
+              02-01-2025
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Pembukaan Uji Kompetensi</h5>
               <p  class="card-text">With supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
@@ -242,34 +242,22 @@
 
         <div class="col-lg-3">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <img src="../assets/image/1.webp" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <img src="../assets/image/8.webp" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <img src="../assets/image/16.webp" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-lg-3">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+            <img src="../assets/image/9.webp" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col pt-5 d-flex justify-content-center">
@@ -311,7 +299,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Jumlah Tenaga Administrasi</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text fw-bold">12</p>
             </div>
           </div>
         </div>
@@ -337,7 +325,7 @@ template{
 }
 
 .background-container {
-  background-image: url('../assets/image/bg1.jpg');
+  background-image: url('../assets/image/BGround.webp');
   background-size: cover; /* Membuat gambar menyesuaikan ukuran container */
   background-position: center; /* Pusatkan gambar */
   background-repeat: no-repeat; /* Mencegah pengulangan gambar */
